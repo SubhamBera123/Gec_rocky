@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/project2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./First_project_gec_files/project2.css">
+</head>
+<body>
+    <div class="menu_bar">
+        <select class="menu">
+            <option>Menu</option>
+            <option>Competition</option>
+            <option>Result</option>
+        </select>
+    </div>
+    <div class="front_page">
+       <div class="gec"><h1>GANDHI AUTONOMUS COLLEGE</h1></div> 
+    </div>
+    <div class="logo_head">
+        <div class="logo border"></div>
+    </div>
+    <div class="welcome">
+       <div class="welcom1"><h1>WELCOME TO</h1></div> <br></div>
+       <div class="welcome_back">
+        <div class="welcome2"><h2>TECNOVATION 2K24</h2></div>
+    </div>
+    <div class="first_box">
+        <div class="box1 border font">Hackathon</div>
+        <div class="box2 border font">G-Hacking</div>
+    </div>
+    <div class="second_box">
+        <div class="box3 border font">Hackathon</div>
+        <div class="box4 border font">G-Hacking</div>
+    </div>
+    <div class="third_box">
+        <div class="box5 border font">Hackathon</div>
+        <div class="box6 border font">G-Hacking</div>
+    </div>
+    <div class="fourth_box">
+        <div class="box7 border font">Hackathon</div>
+        <div class="box8 border font">G-Hacking</div>
+    </div>
+    <div class="click">
+        <div class="click1"><h4>For More Info</h4></div>
+        <div class="click2"><button>click here</button></div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
